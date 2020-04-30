@@ -112,6 +112,11 @@ time.post-date {
 
 .banner p {
   margin: 0;
-  color: #fff !important;
+  color: #fff;
   text-align: center;
+}
+
+.banner a {
+  color: #f4bf75;
+  filter: contrast(1.5);
 }
