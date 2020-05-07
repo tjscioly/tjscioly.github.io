@@ -59,8 +59,7 @@ p.subtitle {
   /* Display links inline, but not for updates (looks odd) */
   .sidebar-nav:not(#updates) li {
     display: inline-block;
-    margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
+    margin-inline: 0.8rem;
   }
 
   /* Hide additional items by default */
@@ -119,4 +118,15 @@ time.post-date {
 .banner a {
   color: #f4bf75;
   filter: contrast(1.5);
+}
+
+.pagination {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  list-style: none;
+  margin-inline: 0.8rem;
 }
