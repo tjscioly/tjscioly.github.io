@@ -24,7 +24,7 @@
 /* With even smaller viewpoints, hide the logo outright. 2 sets:
    First set: hide logo for tablets/phones with heights below 40em.
    Second set: hide logo on laptops with heights below 48em.
-   Difference is due to additional links being hidden by default on mobile. */
+   Difference is due to additional links being hidden on mobile. */
 @media (max-width: 48em) and (max-height: 40em),
   (min-width: 48em) and (max-height: 48em) {
   #logo {
@@ -44,7 +44,7 @@ p.subtitle {
 /* Additional footer placed below <main>, only shown on mobile. */
 footer#mobile {
   display: none;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 footer p {
