@@ -41,34 +41,37 @@ p.subtitle {
   font-size: 1.25rem;
 }
 
-/* Hamburger menu on mobile view */
-
-/* Toggle hidden on laptops and up, all items displayed */
-@media (min-width: 48em) {
-  #toggle-button {
-    display: none;
-  }
-
-  .hideable-content {
-    display: block;
-  }
+/* Additional footer placed below <main>, only shown on mobile. */
+footer#mobile {
+  display: none;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
-/* Hamburger menu & link compression on mobile */
+footer p {
+  font-size: 0.75rem;
+  margin-bottom: 0rem;
+}
+
+/* Navbar compaction on mobile. */
 @media not screen and (min-width: 48em) {
-  /* Display links inline, but not for updates (looks odd) */
-  .sidebar-nav:not(#updates) li {
+  /* Display multiple links in same line */
+  .sidebar-nav li {
     display: inline-block;
     margin-inline: 0.8rem;
   }
 
-  /* Hide additional items by default */
-  .hideable-content {
+  /* Hide unnecessary update previews, move footer to bottom of page. */
+  footer#desktop,
+  #updates {
     display: none;
   }
-
-  #toggle-button {
+  footer#mobile {
     display: block;
+  }
+
+  /* No copyright footer below in mobile view... so last one doesn't need extra padding below. */
+  ul.sidebar-nav:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -81,23 +84,20 @@ ul.sidebar-nav {
   margin-bottom: 0.6rem;
 }
 
-footer p {
-  font-size: 0.75rem;
-  margin-bottom: 0rem;
+.post-title,
+.page-title {
+  margin-bottom: 1rem;
 }
 
 time.post-date {
   margin-top: -1rem;
 }
 
-.post-title, .page-title {
-  margin-bottom: 1rem;
-}
-
 .post-preview {
   margin-bottom: 1.5rem;
 }
 
+/* Custom info banner. */
 .banner {
   padding: 0.75rem 0rem 0.75rem 18rem;
   background-color: #75b5aa;
@@ -120,6 +120,7 @@ time.post-date {
   filter: contrast(1.5);
 }
 
+/* Basic pagination controls. */
 .pagination {
   margin: 0;
   padding: 0;
