@@ -1,5 +1,7 @@
 /* Additional styling changes */
 
+/* SIDEBAR & FOOTER */
+
 /* An additional font size shrink restriction below a viewport height
    of 58em due to the tall sidebar. */
 @media (max-height: 58em) {
@@ -47,9 +49,34 @@ footer#mobile {
   padding: 1rem;
 }
 
+footer#desktop {
+  display: flex;
+}
+
+footer#mobile,
+footer#desktop {
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer p {
   font-size: 0.75rem;
   margin-bottom: 0rem;
+}
+
+.social-media-link svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0;
+  display: block;
+}
+
+#mobile .social-media-link svg {
+  fill: #515151;
+}
+
+#desktop .social-media-link svg {
+  fill: #fff;
 }
 
 /* Navbar compaction on mobile. */
@@ -57,16 +84,19 @@ footer p {
   /* Display multiple links in same line */
   .sidebar-nav li {
     display: inline-block;
-    margin-inline: 0.8rem;
+    margin-inline-start: 0.8rem;
+    margin-inline-end: 0.8rem;
+    -webkit-margin-start: 0.8rem;
+    -webkit-margin-end: 0.8rem;
   }
 
   /* Hide unnecessary update previews, move footer to bottom of page. */
   footer#desktop,
-  #updates {
+  .updates {
     display: none;
   }
   footer#mobile {
-    display: block;
+    display: flex;
   }
 
   /* No copyright footer below in mobile view... so last one doesn't need extra padding below. */
@@ -84,6 +114,8 @@ ul.sidebar-nav {
   margin-bottom: 0.6rem;
 }
 
+/* CONTENT REGION */
+
 .post-title,
 .page-title {
   margin-bottom: 1rem;
@@ -98,6 +130,7 @@ time.post-date {
 }
 
 /* Custom info banner. */
+
 .banner {
   padding: 0.75rem 0rem 0.75rem 18rem;
   background-color: #75b5aa;
@@ -121,6 +154,7 @@ time.post-date {
 }
 
 /* Basic pagination controls. */
+
 .pagination {
   margin: 0;
   padding: 0;
@@ -130,4 +164,13 @@ time.post-date {
   display: inline-block;
   list-style: none;
   margin-inline: 0.8rem;
+}
+
+details summary {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #313131;
+  cursor: pointer;
 }
