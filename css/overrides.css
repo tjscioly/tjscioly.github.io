@@ -7,14 +7,6 @@
   padding-right: 0.75rem;
 }
 
-/* An additional font size shrink restriction below a viewport height
-   of 58em due to the tall sidebar. */
-@media (max-height: 58em) {
-  html {
-    font-size: 16px;
-  }
-}
-
 #logo {
   margin-left: auto;
   margin-right: auto;
@@ -46,6 +38,23 @@
 
 p.subtitle {
   font-size: 1.25rem;
+}
+
+.nav-label {
+  margin-bottom: 0;
+  font-variant: small-caps;
+}
+
+ul.sidebar-nav {
+  margin-bottom: 0.6rem;
+}
+
+/* Elide links that are too long. */
+ul.sidebar-nav a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Additional footer placed below <main>, only shown on mobile. */
@@ -82,6 +91,7 @@ div.social-media-link {
 
 .social-media-link a ~ a {
   margin-inline-start: 0.3rem;
+  -webkit-margin-start: 0.3rem;
 }
 
 #mobile .social-media-link svg {
@@ -97,6 +107,8 @@ div.social-media-link {
   /* Display multiple links in same line */
   .sidebar-nav li {
     display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
     margin-inline-start: 0.8rem;
     margin-inline-end: 0.8rem;
     -webkit-margin-start: 0.8rem;
@@ -118,16 +130,15 @@ div.social-media-link {
   }
 }
 
-.nav-label {
-  margin-bottom: 0;
-  font-variant: small-caps;
-}
-
-ul.sidebar-nav {
-  margin-bottom: 0.6rem;
-}
-
 /* CONTENT REGION */
+
+/* An additional font size shrink restriction below a viewport height
+   of 58em due to the tall sidebar. */
+@media (max-height: 58em) {
+  html {
+    font-size: 16px;
+  }
+}
 
 .post-title,
 .page-title {
