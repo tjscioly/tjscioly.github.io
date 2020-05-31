@@ -2,6 +2,11 @@
 
 /* SIDEBAR & FOOTER */
 
+.sidebar-sticky {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 /* An additional font size shrink restriction below a viewport height
    of 58em due to the tall sidebar. */
 @media (max-height: 58em) {
@@ -64,11 +69,19 @@ footer p {
   margin-bottom: 0rem;
 }
 
+div.social-media-link {
+  display: flex;
+}
+
 .social-media-link svg {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1rem;
+  height: auto;
   margin: 0;
   display: block;
+}
+
+.social-media-link a ~ a {
+  margin-inline-start: 0.3rem;
 }
 
 #mobile .social-media-link svg {
