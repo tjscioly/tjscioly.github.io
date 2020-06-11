@@ -191,10 +191,15 @@ time.post-date {
 }
 
 details summary {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom:0.5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   cursor: pointer;
+  margin-left: -1.5rem;
+}
+
+details {
+  margin-left: 1.5rem;
 }
