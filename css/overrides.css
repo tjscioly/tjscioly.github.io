@@ -7,7 +7,7 @@
   padding-right: 0.75rem;
 }
 
-#logo {
+#logo img {
   margin-left: auto;
   margin-right: auto;
   max-width: 70%;
@@ -16,7 +16,21 @@
 /* Prevent huge logos when single-column mode is used below 48em. */
 @media (max-width: 48em) {
   #logo {
-    max-height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  #logo img {
+    margin: auto;
+    max-width: min(25vw, 160px);
+  }
+
+  #logo h1 {
+    display: inline-block;
+    font-size: min(10vw, 2.85rem);
+    margin: auto;
   }
 }
 
@@ -24,9 +38,23 @@
    First set: hide logo for tablets/phones with heights below 40em.
    Second set: hide logo on laptops with heights below 48em.
    Difference is due to additional links being hidden on mobile. */
-@media (max-width: 48em) and (max-height: 40em),
+/* @media (max-width: 48em) and (max-height: 40em),
   (min-width: 48em) and (max-height: 48em) {
-  #logo {
+  #logo img {
+    display: none;
+  }
+
+  #logo a {
+    display: inline-block;
+  }
+
+  #logo img {
+    max-height: 100px;
+  }
+} */
+
+@media (min-width: 48em) and (max-height: 48em) {
+  #logo img {
     display: none;
   }
 }
@@ -197,8 +225,9 @@ details > summary {
   line-height: 1.25;
   color: #313131;
   cursor: pointer;
-  margin-left: 1.2rem;
-  list-style-position: outside;
+  /* Guess what? Chrome doesn't support this.
+   margin-left: 1.2rem;
+  list-style-position: outside; */
 }
 
 details .details-container {
