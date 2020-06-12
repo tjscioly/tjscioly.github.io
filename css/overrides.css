@@ -190,16 +190,17 @@ time.post-date {
   margin-inline: 0.8rem;
 }
 
-details summary {
-  margin-top: 1.5rem;
-  margin-bottom:0.5rem;
+details > summary {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   cursor: pointer;
-  margin-left: -1.5rem;
+  margin-left: 1.2rem;
+  list-style-position: outside;
 }
 
-details {
-  margin-left: 1.5rem;
+details .details-container {
+  padding-left: 1.2rem;
 }
