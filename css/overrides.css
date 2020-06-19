@@ -205,3 +205,7 @@ details > summary {
 details .details-container {
   padding-left: 1.2rem;
 }
+
+table {
+  table-layout: fixed;
+}
