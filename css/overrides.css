@@ -128,9 +128,9 @@ div.social-media-link {
     -webkit-margin-end: 0.8rem;
   }
 
-  /* Hide unnecessary update previews, move footer to bottom of page. */
+  /* Hide unnecessary post previews, move footer to bottom of page. */
   footer#desktop,
-  .updates {
+  .posts {
     display: none;
   }
   footer#mobile {
