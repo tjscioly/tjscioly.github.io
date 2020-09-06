@@ -222,3 +222,7 @@ details .details-container {
 table {
   table-layout: fixed;
 }
+
+blockquote strong {
+  color: #515151;
+}
