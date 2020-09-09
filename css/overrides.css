@@ -226,3 +226,13 @@ table {
 blockquote strong {
   color: #515151;
 }
+
+/* Gallery modifications */
+
+a.galleryImg > img, div.slide > img {
+  border-radius: 0;
+}
+
+div.jg-entry {
+  border-radius: 5px;
+}
