@@ -5,7 +5,14 @@ html {
   font-family: "Source Sans Pro";
 }
 
-h1, h2, h3, h4, h5, h6, b, strong {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
   font-weight: 600;
 }
 
@@ -229,7 +236,13 @@ blockquote strong {
 
 /* Gallery modifications */
 
-a.galleryImg > img, div.slide > img {
+div.justified-gallery {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a.galleryImg > img,
+div.slide > img {
   border-radius: 0;
 }
 
