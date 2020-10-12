@@ -249,3 +249,7 @@ div.slide > img {
 div.jg-entry {
   border-radius: 5px;
 }
+
+ul ul {
+  margin-bottom: 0;
+}
