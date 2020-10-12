@@ -250,6 +250,19 @@ div.jg-entry {
   border-radius: 5px;
 }
 
-ul ul {
+/* Fix extraneous bottom margin in sub-lists. */
+
+ul ul, ol ol {
   margin-bottom: 0;
+}
+
+/* Code block fixes. */
+
+code, pre {
+  font-family: "Source Code Pro";
+}
+
+pre {
+  overflow-x: scroll;
+  white-space: pre;
 }
