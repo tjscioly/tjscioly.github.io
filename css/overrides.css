@@ -228,6 +228,7 @@ details .details-container {
 
 table {
   table-layout: fixed;
+  word-wrap: break-word;
 }
 
 blockquote strong {
