@@ -1,0 +1,561 @@
+{
+  "Air Trajectory": {
+    "abbreviation": "Air Traj",
+    "other names": [],
+    "similar events": []
+  },
+  "Amazing Mechatronics": {
+    "abbreviation": "Amazing Mech",
+    "other names": [],
+    "similar events": []
+  },
+  "Anatomy and Physiology": {
+    "abbreviation": "Anatomy",
+    "other names": [
+      "anat",
+      "ap",
+      "a&p",
+      "anatomy & physiology",
+      "anatomy&physiology"
+    ],
+    "similar events": []
+  },
+  "Astronomy": {
+    "abbreviation": "Astro",
+    "other names": [],
+    "similar events": [
+      "Reach for the Stars",
+      "Solar System"
+    ]
+  },
+  "Battery Buggy": {
+    "abbreviation": "BBuggy",
+    "other names": [
+      "battery",
+      "buggy",
+      "bb"
+    ],
+    "similar events": []
+  },
+  "Bio-Process Lab": {
+    "abbreviation": "BPL",
+    "other names": [
+      "bioprocess lab"
+    ],
+    "similar events": []
+  },
+  "Boomilever": {
+    "abbreviation": "Boom",
+    "other names": [
+      "boom",
+      "boomi",
+      "bl",
+      "boomiliver"
+    ],
+    "similar events": [
+      "Bridges",
+      "Towers"
+    ]
+  },
+  "Bridges": {
+    "abbreviation": "Bridges",
+    "other names": [
+      "elevated bridge",
+      "elevated bridges",
+      "bridge building",
+      "bridge-building"
+    ],
+    "similar events": []
+  },
+  "Chemistry Lab": {
+    "abbreviation": "Chem Lab",
+    "other names": [
+      "chem"
+    ],
+    "similar events": []
+  },
+  "Circuit Lab": {
+    "abbreviation": "Circuit",
+    "other names": [
+      "circuits"
+    ],
+    "similar events": []
+  },
+  "Codebusters": {
+    "abbreviation": "Code",
+    "other names": [
+      "code busters",
+      "codebuster",
+      "codes buster"
+    ],
+    "similar events": []
+  },
+  "Crime Busters": {
+    "abbreviation": "Crime",
+    "other names": [
+      "crimebusters",
+      "cb"
+    ],
+    "similar events": []
+  },
+  "Cybersecurity": {
+    "abbreviation": "Cyber",
+    "other names": [],
+    "similar events": []
+  },
+  "Designer Genes": {
+    "abbreviation": "DGenes",
+    "other names": [
+      "designer",
+      "dg"
+    ],
+    "similar events": [
+      "Heredity"
+    ]
+  },
+  "Detector Building": {
+    "abbreviation": "Detector",
+    "other names": [
+      "db",
+      "detector design"
+    ],
+    "similar events": [
+      "Amazing Mechatronics"
+    ]
+  },
+  "Disease Detectives": {
+    "abbreviation": "Disease",
+    "other names": [
+      "dd"
+    ],
+    "similar events": [
+      "Microbe Mission"
+    ]
+  },
+  "Dynamic Planet": {
+    "abbreviation": "DyPlan",
+    "other names": [
+      "dp",
+      "dynamic"
+    ],
+    "similar events": []
+  },
+  "Ecology": {
+    "abbreviation": "Ecology",
+    "other names": [],
+    "similar events": [
+      "Green Generation"
+    ]
+  },
+  "Elastic Launched Glider": {
+    "abbreviation": "",
+    "other names": [
+      "elastic launch glider",
+      "elg",
+      "elastic",
+      "gliders"
+    ],
+    "similar events": [
+      "Helicopters",
+      "Wright Stuff"
+    ]
+  },
+  "Environmental Chemistry": {
+    "abbreviation": "EnviroChem",
+    "other names": [
+      "enviromental chem",
+      "environment chem",
+      "environment chemistry",
+      "envirochemistry"
+    ],
+    "similar events": []
+  },
+  "Experimental Design": {
+    "abbreviation": "ExpDes",
+    "other names": [
+      "exdes",
+      "exdesi",
+      "expd",
+      "experimental",
+      "expiremental design",
+      "experiment design",
+      "edd",
+      "ed",
+      "experimental and data analysis",
+      "exdata",
+      "experiment and data analysis",
+      "expirement and data analysis",
+      "expiremental and data analysis"
+    ],
+    "similar events": []
+  },
+  "Fast Facts": {
+    "abbreviation": "FF",
+    "other names": [
+      "facts"
+    ],
+    "similar events": []
+  },
+  "Fermi Questions": {
+    "abbreviation": "Fermi",
+    "other names": [],
+    "similar events": []
+  },
+  "Food Science": {
+    "abbreviation": "Food Sci",
+    "other names": [
+      "food",
+      "foodsci"
+    ],
+    "similar events": []
+  },
+  "Forensics": {
+    "abbreviation": "Forensics",
+    "other names": [
+      "4n6",
+      "forens",
+      "foren"
+    ],
+    "similar events": [
+      "Crime Busters"
+    ]
+  },
+  "Fossils": {
+    "abbreviation": "Fossils",
+    "other names": [],
+    "similar events": []
+  },
+  "Geologic Mapping": {
+    "abbreviation": "GeoMap",
+    "other names": [
+      "geo",
+      "geomapping",
+      "geo mapping"
+    ],
+    "similar events": [
+      "Road Scholar"
+    ]
+  },
+  "Gravity Vehicle": {
+    "abbreviation": "Grav",
+    "other names": [
+      "grav",
+      "gv",
+      "gravity",
+      "vehicle"
+    ],
+    "similar events": [
+      "Battery Buggy",
+      "Mousetrap Vehicle"
+    ]
+  },
+  "Green Generation": {
+    "abbreviation": "Green Gen",
+    "other names": [
+      "green",
+      "gg"
+    ],
+    "similar events": [
+      "Ecology"
+    ]
+  },
+  "Helicopters": {
+    "abbreviation": "Heli",
+    "other names": [
+      "helicopter"
+    ],
+    "similar events": [
+      "Elastic Launched Glider",
+      "Wright Stuff"
+    ]
+  },
+  "Heredity": {
+    "abbreviation": "Heredity",
+    "other names": [],
+    "similar events": []
+  },
+  "Herpetology": {
+    "abbreviation": "Herp",
+    "other names": [
+      "herpet"
+    ],
+    "similar events": []
+  },
+  "Hovercraft": {
+    "abbreviation": "Hovercraft",
+    "other names": [
+      "hover"
+    ],
+    "similar events": []
+  },
+  "Indoor Bottle Rocket": {
+    "abbreviation": "Bottle Rocket",
+    "other names": [
+      "bottle"
+    ],
+    "similar events": []
+  },
+  "Invasive Species": {
+    "abbreviation": "Invasive",
+    "other names": [],
+    "similar events": []
+  },
+  "It's About Time": {
+    "abbreviation": "IAT",
+    "other names": [
+      "time",
+      "its about time"
+    ],
+    "similar events": []
+  },
+  "Machines": {
+    "abbreviation": "Machines",
+    "other names": [
+      "simple machines",
+      "compund machines"
+    ],
+    "similar events": []
+  },
+  "Meteorology": {
+    "abbreviation": "Meteo",
+    "other names": [],
+    "similar events": []
+  },
+  "Microbe Mission": {
+    "abbreviation": "Microbe",
+    "other names": [
+      "mm"
+    ],
+    "similar events": []
+  },
+  "Mission Possible": {
+    "abbreviation": "Mission",
+    "other names": [
+      "possible",
+      "mission impossible",
+      "mp"
+    ],
+    "similar events": []
+  },
+  "Mousetrap Vehicle": {
+    "abbreviation": "Mousetrap",
+    "other names": [
+      "vehicle",
+      "mv",
+      "mtv"
+    ],
+    "similar events": []
+  },
+  "Mystery Architecture": {
+    "abbreviation": "MArch",
+    "other names": [
+      "mystery",
+      "architecture",
+      "mystery arch"
+    ],
+    "similar events": []
+  },
+  "Optics": {
+    "abbreviation": "Optics",
+    "other names": [],
+    "similar events": []
+  },
+  "Ornithology": {
+    "abbreviation": "Orni",
+    "other names": [
+      "ornithology",
+      "ornith"
+    ],
+    "similar events": []
+  },
+  "Picture This": {
+    "abbreviation": "Picture This",
+    "other names": [],
+    "similar events": []
+  },
+  "Ping-Pong Parachute": {
+    "abbreviation": "PPP",
+    "other names": [
+      "ping pong parachute",
+      "ping pong",
+      "ping-pong"
+    ],
+    "similar events": [
+      "Indoor Bottle Rocket"
+    ]
+  },
+  "Potions and Poisons": {
+    "abbreviation": "Potions",
+    "other names": [
+      "poisons",
+      "potions & poisons",
+      "potions&poisons",
+      "pnp",
+      "p&p"
+    ],
+    "similar events": []
+  },
+  "Protein Modeling": {
+    "abbreviation": "Protein",
+    "other names": [
+      "promo",
+      "promod"
+    ],
+    "similar events": []
+  },
+  "Reach for the Stars": {
+    "abbreviation": "",
+    "other names": [
+      "reach for the stars",
+      "rfts"
+    ],
+    "similar events": []
+  },
+  "Remote Sensing": {
+    "abbreviation": "RemSen",
+    "other names": [
+      "remote",
+      "sensing",
+      "remsensing"
+    ],
+    "similar events": []
+  },
+  "Road Scholar": {
+    "abbreviation": "Road",
+    "other names": [
+      "rs",
+      "road scholars",
+      "roads scholar"
+    ],
+    "similar events": []
+  },
+  "Rocks and Minerals": {
+    "abbreviation": "Rocks",
+    "other names": [
+      "rocks & minerals",
+      "rocks",
+      "minerals",
+      "r&m",
+      "rnm",
+      "rocks&minerals"
+    ],
+    "similar events": []
+  },
+  "Rotor Egg Drop": {
+    "abbreviation": "Rotor",
+    "other names": [],
+    "similar events": []
+  },
+  "Science Quiz Bowl": {
+    "abbreviation": "SQB",
+    "other names": [
+      "scibowl",
+      "sci bowl",
+      "science bowl",
+      "sci-bowl",
+      "quizbowl",
+      "quiz bowl",
+      "quiz-bowl",
+      "science quizbowl",
+      "scitech bowl"
+    ],
+    "similar events": []
+  },
+  "Scrambler": {
+    "abbreviation": "Scrambler",
+    "other names": [],
+    "similar events": []
+  },
+  "Solar Power": {
+    "abbreviation": "Solar Power",
+    "other names": [],
+    "similar events": []
+  },
+  "Solar System": {
+    "abbreviation": "Solar System",
+    "other names": [
+      "ss",
+      "solar"
+    ],
+    "similar events": []
+  },
+  "Sounds of Music": {
+    "abbreviation": "Sounds",
+    "other names": [
+      "som"
+    ],
+    "similar events": []
+  },
+  "Thermodynamics": {
+    "abbreviation": "Thermo",
+    "other names": [],
+    "similar events": []
+  },
+  "Towers": {
+    "abbreviation": "Towers",
+    "other names": [],
+    "similar events": []
+  },
+  "Trajectory": {
+    "abbreviation": "Traj",
+    "other names": [],
+    "similar events": [
+      "Air Trajectory"
+    ]
+  },
+  "Water Quality": {
+    "abbreviation": "WQual",
+    "other names": [
+      "water qual",
+      "waqua",
+      "water",
+      "wq"
+    ],
+    "similar events": []
+  },
+  "WiFi Lab": {
+    "abbreviation": "WiFi",
+    "other names": [],
+    "similar events": []
+  },
+  "Wind Power": {
+    "abbreviation": "Wind",
+    "other names": [
+      "wind powers",
+      "windpower",
+      "windpowers"
+    ],
+    "similar events": []
+  },
+  "Wright Stuff": {
+    "abbreviation": "Wright",
+    "other names": [
+      "ws"
+    ],
+    "similar events": [
+      "Elastic Launched Glider",
+      "Helicopters"
+    ]
+  },
+  "Write It CAD It": {
+    "abbreviation": "WICI",
+    "other names": [
+      "write it, cad it",
+      "write-it-cad-it",
+      "wicadi"
+    ],
+    "similar events": [
+      "Write It Do It"
+    ]
+  },
+  "Write It Do It": {
+    "abbreviation": "WIDI",
+    "other names": [
+      "write it, do it",
+      "write-it-do-it"
+    ],
+    "similar events": [
+      "Write It CAD It"
+    ]
+  }
+}
