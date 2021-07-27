@@ -23,16 +23,17 @@ strong {
   padding-right: 0.75rem;
 }
 
-#logo img {
+#logo svg {
   margin-left: auto;
   margin-right: auto;
   max-width: 70%;
   margin-bottom: 0.2rem;
+  display: block;
 }
 
 /* Prevent huge logos when single-column mode is used below 48em. */
 @media (max-width: 48em) {
-  #logo img {
+  #logo svg {
     max-height: 158px;
   }
 }
@@ -43,8 +44,89 @@ strong {
    Difference is due to additional links being hidden on mobile. */
 @media (max-width: 48em) and (max-height: 40em),
   (min-width: 48em) and (max-height: 44em) {
-  #logo img {
+  #logo svg {
     display: none;
+  }
+}
+
+/* Pretty colors! */
+#logo svg:hover path:not(.no-fill) {
+  animation: colors 3s linear infinite;
+}
+
+#logo svg:hover path.no-fill {
+  animation: colors-stroke 3s linear infinite;
+}
+
+#logo svg:hover circle {
+  animation: colors 3s linear infinite;
+}
+
+@-webkit-keyframes colors {
+  0% {
+    fill: #ffffff;
+    stroke: #ffffff;
+  }
+  33% {
+    fill: #000080;
+    stroke: #000080;
+  }
+  67% {
+    fill: #800000;
+    stroke: #800000;
+  }
+  to {
+    fill: #ffffff;
+    stroke: #ffffff;
+  }
+}
+
+@keyframes colors {
+  0% {
+    fill: #ffffff;
+    stroke: #ffffff;
+  }
+  33% {
+    fill: #000080;
+    stroke: #000080;
+  }
+  67% {
+    fill: #800000;
+    stroke: #800000;
+  }
+  to {
+    fill: #ffffff;
+    stroke: #ffffff;
+  }
+}
+
+@keyframes colors-stroke {
+  0% {
+    stroke: #ffffff;
+  }
+  33% {
+    stroke: #000080;
+  }
+  67% {
+    stroke: #800000;
+  }
+  to {
+    stroke: #ffffff;
+  }
+}
+
+@-webkit-keyframes colors-stroke {
+  0% {
+    stroke: #ffffff;
+  }
+  33% {
+    stroke: #000080;
+  }
+  67% {
+    stroke: #800000;
+  }
+  to {
+    stroke: #ffffff;
   }
 }
 
@@ -226,6 +308,7 @@ details .details-container {
   padding-left: 1.2rem;
 }
 
+/* Fix table width and break words for long names. */
 table {
   table-layout: fixed;
   word-wrap: break-word;
@@ -266,4 +349,21 @@ code, pre {
 pre {
   overflow-x: scroll;
   white-space: pre;
+}
+
+/* Officer profiles. */
+
+.officer-details img {
+  width: 25%;
+  height: 25%;
+  float: right;
+}
+
+.officer-details {
+  display: inline-block;
+}
+
+.officer-details p {
+  width: 70%;
+  float: left;
 }
