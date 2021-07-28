@@ -50,12 +50,9 @@ strong {
 }
 
 /* Pretty colors! */
+
 #logo svg:hover path:not(.no-fill) {
   animation: colors 3s linear infinite;
-}
-
-#logo svg:hover path.no-fill {
-  animation: colors-stroke 3s linear infinite;
 }
 
 #logo svg:hover circle {
@@ -98,6 +95,13 @@ strong {
     fill: #ffffff;
     stroke: #ffffff;
   }
+}
+
+/* This exists for the portion of the flask that isn't filled. */
+
+
+#logo svg:hover path.no-fill {
+  animation: colors-stroke 3s linear infinite;
 }
 
 @keyframes colors-stroke {
@@ -300,7 +304,7 @@ details > summary {
   color: #313131;
   cursor: pointer;
   /* Guess what? Chrome doesn't support this.
-   margin-left: 1.2rem;
+  margin-left: 1.2rem;
   list-style-position: outside; */
 }
 
@@ -366,4 +370,35 @@ pre {
 .officer-details p {
   width: 70%;
   float: left;
+}
+
+/* Dark mode. Most of these colors are just the inverses of their light mode counterparts,
+   with the exception of the table one because #060606 has basically no contrast with pure black. */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000;
+    color: #aeaeae;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #cecece;
+  }
+  strong {
+    color: #cfcfcf;
+  }
+  .page-title, .post-title, .post-title a {
+    color: #cfcfcf;
+  }
+  blockquote {
+    color: #858585;
+  }
+  blockquote strong {
+    color: #aeaeae;
+  }
+  details > summary {
+    color: #cecece;
+  }
+  tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th {
+    background-color: #242424;
+  }
 }
