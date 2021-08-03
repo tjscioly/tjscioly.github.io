@@ -402,3 +402,11 @@ pre {
     background-color: #242424;
   }
 }
+
+/* Chrome's downscaling sucks and makes images look blurry.
+This isn't an amazing fix, but it works well enough for now.
+Use Firefox, kids. */
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
