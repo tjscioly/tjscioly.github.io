@@ -401,6 +401,10 @@ pre {
   tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th {
     background-color: #242424;
   }
+
+  code {
+    background-color: #272822;
+  }
 }
 
 /* Chrome's downscaling sucks and makes images look blurry.
